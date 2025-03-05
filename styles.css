@@ -17,6 +17,7 @@ body {
 #subtitle {
     opacity: 0.7;
     font-size: 18px;
+    margin-bottom: 20px;
 }
 
 #calendarContainer {
@@ -57,11 +58,17 @@ body {
 .day {
     width: 30px;
     margin: 3px;
-    padding: 10px 21px 10px 17px;
+    padding: 10px 22px 10px 17px;
     font-size: 15px;
     text-align: center;
     border-radius: 20px;
-    border: 2px solid black;
-    background-color: pink;
     box-sizing: border-box;
+}
+
+.lightText {
+    color: lightgrey;
+}
+
+.whiteText {
+    color: white;
 }
